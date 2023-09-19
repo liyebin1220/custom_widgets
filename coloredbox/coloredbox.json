@@ -11,22 +11,22 @@
     "webcomponents": [
         {
             "kind": "main",
-            "tag": "com-sap-coloredbox",
-            "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox.js",
+            "tag": "com-coloredbox",
+            "url": "https://liyebin1220.github.io/custom_widgets/coloredbox/coloredbox.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "styling",
-            "tag": "com-sap-coloredbox-styling",
-            "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_styling.js",
+            "tag": "com-coloredbox-styling",
+            "url": "https://liyebin1220.github.io/custom_widgets/coloredbox/coloredbox_styling.js",
             "integrity": "",
             "ignoreIntegrity": true
         },
         {
             "kind": "builder",
-            "tag": "com-sap-coloredbox-builder",
-            "url": "https://www.sample.com/customwidgets/coloredbox/coloredbox_builder.js",
+            "tag": "com-coloredbox-builder",
+            "url": "https://liyebin1220.github.io/custom_widgets/coloredbox/coloredbox_builder.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
