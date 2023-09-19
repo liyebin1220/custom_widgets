@@ -30,12 +30,15 @@
                     }
                 }
             }));
+            console.log("color set in submit: ", propertiesChanged)
         }
         set color(newColor) {
             this._shadowRoot.getElementById("styling_color").value = newColor;
+            console.log("color set in styling.")
         }
         get color() {
-            return this._shadowRoot.getElementById("styling_color").value;
+            console.log("color get in styling.")
+            return this._shadowRoot.getElementById("styling_color").value;            
         }
     }
     customElements.define("com-coloredbox-styling", ColoredBoxStylingPanel);

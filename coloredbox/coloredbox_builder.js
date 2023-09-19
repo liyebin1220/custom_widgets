@@ -36,11 +36,14 @@
                     }
                 }
             }));
+            console.log("opacity set in submit: ", propertiesChanged)
         }
         set opacity(newOpacity) {
+            console.log("opacity set in builder.")
             this._shadowRoot.getElementById("builder_opacity").value = newOpacity;
         }
         get opacity() {
+            console.log("opacity get in builder.")
             return this._shadowRoot.getElementById("builder_opacity").value;
         }
     }

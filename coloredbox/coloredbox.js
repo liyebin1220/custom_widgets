@@ -19,6 +19,7 @@
             this.addEventListener("click", event => {
                 var event = new Event("onClick");
                 this.dispatchEvent(event);
+                console.log("onClick event triggered.")
             });
             this._props = {};
         }
